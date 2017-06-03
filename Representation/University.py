@@ -10,4 +10,3 @@ class University:
             times = times + room.available_time_slots
         times = np.unique(times)
         self.num_time_slots = max(times)
-        print(self.num_time_slots)
